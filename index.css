@@ -1,0 +1,26 @@
+/* img {
+    width : 300px ; 
+} */
+* {
+    padding : 0px ;
+    margin : 0px ;  
+
+}
+.header{
+    height : 80px ; 
+    display : flex; 
+    flex-direction : row ; 
+
+}
+.title {
+    display : flex; 
+}
+.all-title {
+    display : flex ; 
+    flex-direction: column;
+}
+
+
+.title > img {
+    height: 65%;
+}
