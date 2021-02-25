@@ -645,22 +645,27 @@ tbody > tr > td:first-child {
             width: 100% ;
             padding : 5px ;
         }
-        #quotation-holder{
-            margin :0px;
+        .quotation-holder{
+            margin :40px;
         
         }
+      
         #read-more {
             margin: 0px 0px 10px 0px  ;
             /* margin-bottom: 10px ; */
         }
         #quotation{
-            font-size: 22px;
+            font-size: 17px;
         }
         tbody{
             font-size: medium;
         }
         tbody > tr > td:first-child{
             width : 40% ; 
+        }
+        .heading-video{
+            margin-bottom : 30px ; 
+        
         }
     }
 
@@ -717,7 +722,7 @@ Product Video
   footer
   ########
   */
-
+/* 
   .footer{
     background: #152F4F;
     color:white;
@@ -746,7 +751,7 @@ Product Video
     }
     .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
   }
-
+ */
 
 
 
