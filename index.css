@@ -722,52 +722,66 @@ Product Video
   footer
   ########
   */
-/* 
-  .footer{
-    background: #152F4F;
-    color:white;
-   
-    .links{
-      ul {list-style-type: none;}
-      li a{
-        color: white;
-        transition: color .2s;
-        &:hover{
-          text-decoration:none;
-          color:#4180CB;
-          }
-      }
-    }  
-    .about-company{
-      i{font-size: 25px;}
-      a{
-        color:white;
-        transition: color .2s;
-        &:hover{color:#4180CB}
-      }
-    } 
-    .location{
-      i{font-size: 18px;}
+  .footer {
+    background: #152f4f;
+    color: white;
+}
+.footer .links ul {
+    list-style-type: none;
+}
+.footer .links li a {
+    color: white;
+    transition: color 0.2s;
+}
+.footer .links li a:hover {
+    text-decoration: none;
+    color: #4180cb;
+}
+.footer .about-company i {
+    font-size: 25px;
+}
+.footer .about-company a {
+    color: white;
+    transition: color 0.2s;
+}
+.footer .about-company a:hover {
+    color: #4180cb;
+}
+.footer .location i {
+    font-size: 18px;
+}
+.footer .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}
+.location i {
+    margin : 0px 13px 0px 0px ;
+}
+@media screen and  (max-device-width: 600px) and (orientation : portrait) {
+    .location h4{
+        margin : 20px 0px 15px 0px ;
+        /* margin: 20px ;  */
+
+        /* top : 10px  */
     }
-    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
-  }
- */
+}
+/* .copyright strong {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    color : white;
+} */
+.devloper{
+    position: relative;
+    bottom : 10px ;
+    border : none ; 
+    border : 0px solid blue ; 
+}
+.devloper a{
+    text-decoration: none;
+    color : white ; 
+}
+.devloper a:hover {
+    color : white ; 
+    border-bottom : 2px solid white ; 
+}
 
 
 
