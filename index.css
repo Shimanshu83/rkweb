@@ -234,6 +234,7 @@ responsive website
         /* background-color : #EA4335 ;  */
         background-color: rgb(187, 0, 27);
     }
+
 /* 
 ###########
 ###########
@@ -270,7 +271,6 @@ hovering effect for sharing button
     }
 
 }
-
 .menu-activated{
 
     display : none ; 
@@ -282,10 +282,20 @@ hovering effect for sharing button
 
     align-items: center;
     background-color :rgb(15, 154, 189);
-
+    /* position: absolute;  */
+    /* opacity: 0;
+    height: 0px; */
+    
 
 
 }
+
+/* .navigation_button2{
+    transition  : height .4s ease ;
+} */
+
+
+
 
 
 
@@ -341,10 +351,7 @@ hovering effect for sharing button
  */
 
 /* the carousal container  */
-.c-container{
-    /* background-color :rgba(15, 154, 189, 0.234) ; */
 
-}
 .carousal-container{
     /* background-color :rgba(15, 154, 189, 0.534) ; */
     margin : 10px auto ;

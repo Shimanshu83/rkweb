@@ -197,6 +197,54 @@ readButton.addEventListener("click", () => {
 // setInterval(quotationFunc,3000);
 
 
+let readButton1 = document.getElementById("welcome-read-more");
+
+readButton1.addEventListener("click", () => {
+    // readButton.style.color = "green" ; 
+    var tableBody1 = document.getElementById("welcome-paragraph-id");
+
+    if (readButton1.innerText == "Read More") {
+        tableBody1.innerHTML = "" ;
+        tableBody1.innerHTML = `
+        <p class="welcome-subparagraph">
+        We, R.K. Engineering Works started in the years 2017 are one of the foremost manufacturers of an
+        extensive
+        array Tissue Paper Making Machine.
+    </p>
+    <p class="welcome-subparagraph">
+        All offered ranges are made in conformity with the universally accepted standards of quality. Owing to
+        their safe usage, smooth functioning, high performance, long service life and resistance to damage,
+        these machines are highly appreciated among our patrons.
+    </p>
+
+    <p class="welcome-subparagraph">
+        Our brand "R.K. Engineering work" is growing with the valuable guidance of Mr. Brijlal Yadav regarding
+        responsiveness
+        and ambitious attempts that guide our assiduous team members to act flexibly to the evolving client
+        needs.
+    </p>
+
+    `;
+
+        readButton1.innerText = "Read Less";
+    }
+
+    else {
+
+        tableBody1.innerHTML = `
+        <p class="welcome-subparagraph">
+                    We, R.K. Engineering Works started in the years 2017 are one of the foremost manufacturers of an
+                    extensive
+                    array Tissue Paper Making Machine.
+                </p>
+`;
+
+        readButton1.innerText = "Read More";
+    }
+
+
+})
+
 
 
     
